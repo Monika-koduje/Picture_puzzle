@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(174, 217, 221);
+}
+
+button {
+  position: absolute;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.very_short_word {
+  display: none;
+}
+
+.snow {
+  top: 0;
+  left: 0;
+  border: 2px solid rgb(41, 70, 165);
+  color: rgb(41, 70, 165);
+}
+
+.snow:nth-of-type(1) {
+  top: 27%;
+  left: 11%;
+}
+
+.snow:nth-of-type(2) {
+  top: 45%;
+  left: 11%;
+}
+
+.snow:nth-of-type(3) {
+  top: 63%;
+  left: 11%;
+}
+
+.snow:nth-of-type(4) {
+  top: 81%;
+  left: 11%;
+}
+
+button.sn_1.sn_click,
+button.sn_2.sn_click,
+button.sn_3.sn_click,
+button.sn_4.sn_click {
+  background: rgb(41, 70, 165);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 7px rgb(41, 70, 165);
+  color: #fff;
+}
+
+.background {
+  border: 2px solid rgb(30, 175, 54);
+  color: rgb(30, 175, 54);
+}
+
+.background:nth-of-type(1) {
+  top: 27%;
+  left: 81%;
+}
+
+.background:nth-of-type(2) {
+  top: 45%;
+  left: 81%;
+}
+
+.background:nth-of-type(3) {
+  top: 63%;
+  left: 81%;
+}
+
+.background:nth-of-type(4) {
+  top: 81%;
+  left: 81%;
+}
+
+button.background_1.bg_click,
+button.background_2.bg_click,
+button.background_3.bg_click,
+button.background_4.bg_click {
+  background: rgb(30, 175, 54);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 7px rgb(30, 175, 54);
+  color: #fff;
+}
+
+.element {
+  border: 2px solid rgb(187, 40, 108);
+  color: rgb(187, 40, 108);
+}
+
+.element:nth-of-type(8) {
+  top: 6%;
+  left: 85%;
+}
+
+.element:nth-of-type(7) {
+  top: 6%;
+  left: 74%;
+}
+
+.element:nth-of-type(6) {
+  top: 6%;
+  left: 63%;
+}
+
+.element:nth-of-type(5) {
+  top: 6%;
+  left: 52%;
+}
+
+.element:nth-of-type(4) {
+  top: 6%;
+  left: 41%;
+}
+
+.element:nth-of-type(3) {
+  top: 6%;
+  left: 30%;
+}
+
+.element:nth-of-type(2) {
+  top: 6%;
+  left: 19%;
+}
+
+.element:nth-of-type(1) {
+  top: 6%;
+  left: 8%;
+}
+
+button.el_1.el_click,
+button.el_2.el_click,
+button.el_3.el_click,
+button.el_4.el_click,
+button.el_5.el_click,
+button.el_6.el_click,
+button.el_7.el_click,
+button.el_8.el_click {
+  background: rgb(187, 40, 108);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 7px rgb(187, 40, 108);
+  color: #fff;
+}
+
+.picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background: #fff;
+  width: 130vh;
+  height: 70vh;
+  border: 4px solid #444;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: auto;
+  display: none;
+}
+
+div.image_bg img,
+div.image_snow img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.img_click_bg,
+img.img_click_sn,
+img.img_click_el {
+  display: block;
+}
+
+div.image_bg img {
+  z-index: -1;
+}
+
+div.image_snow img {
+  z-index: 0;
+}
+
+div.image_element img {
+  z-index: 1;
+}
+
+div.image_snow img.snow_1 {
+  height: 68%;
+  width: 68%;
+  top: 6%;
+  left: 12%;
+}
+
+div.image_snow img.snow_4 {
+  height: 13%;
+  width: auto;
+  top: 4%;
+  left: 5%;
+}
+
+div.image_element img.element_1 {
+  top: 55%;
+  left: 1%;
+}
+
+div.image_element img.element_2 {
+  top: 55%;
+  left: 1%;
+}
+
+div.image_element img.element_3 {
+  top: 64%;
+  left: 52%;
+  height: 30%;
+}
+
+div.image_element img.element_4 {
+  top: 63%;
+  left: 37%;
+  height: 39%;
+}
+
+div.image_element img.element_5 {
+  top: 61%;
+  left: 85%;
+  height: 30%;
+}
+
+div.image_element img.element_6 {
+  top: 59%;
+  left: 12%;
+  height: 39%;
+}
+
+div.image_element img.element_7 {
+  top: 59%;
+  left: 80%;
+  height: 39%;
+}
+
+div.image_element img.element_8 {
+  top: 46%;
+  left: 40%;
+  height: 62%;
+}
+
+@media only screen and (max-width: 1100px) {
+  button {
+    padding: 10px;
+  }
+  .short {
+    display: none;
+  }
+  .picture {
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  button {
+    padding: 5px;
+  }
+  .picture {
+    height: 55%;
+    width: 55%;
+  }
+  .short_word {
+    display: none;
+  }
+  .very_short_word {
+    display: block;
+  }
+}
