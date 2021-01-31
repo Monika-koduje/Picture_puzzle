@@ -1,4 +1,4 @@
-# Picture-puzzles
+# Picture_puzzles
 
 ## Technologies
 Project is created with:
