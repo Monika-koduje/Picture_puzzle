@@ -4,6 +4,7 @@
 Project is created with:
 * CSS3
 * HTML5
+* jQuery
 
 Sources: 
 * https://pixabay.com/pl/
