@@ -162,8 +162,6 @@ button.el_8.el_click {
   left: 50%;
   transform: translate(-50%, -40%);
   background: #fff;
-  width: 130vh;
-  height: 70vh;
   border: 4px solid #444;
   overflow: hidden;
 }
@@ -209,6 +207,12 @@ div.image_snow img.snow_1 {
   width: 68%;
   top: 6%;
   left: 12%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+div.image_snow img.snow_1:hover {
+  opacity: 0;
 }
 
 div.image_snow img.snow_4 {
@@ -216,6 +220,12 @@ div.image_snow img.snow_4 {
   width: auto;
   top: 4%;
   left: 5%;
+  cursor: pointer;
+  transition: 3s linear;
+}
+
+div.image_snow img.snow_4:hover {
+  transform: translate(0, 900%);
 }
 
 div.image_element img.element_1 {
@@ -226,6 +236,13 @@ div.image_element img.element_1 {
 div.image_element img.element_2 {
   top: 55%;
   left: 1%;
+  transition: 1.5s;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+div.image_element img.element_2:hover {
+  transform: scale(2);
 }
 
 div.image_element img.element_3 {
@@ -238,12 +255,25 @@ div.image_element img.element_4 {
   top: 63%;
   left: 37%;
   height: 39%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+div.image_element img.element_4:hover {
+  transform: rotate(360deg);
+  opacity: 0;
 }
 
 div.image_element img.element_5 {
   top: 61%;
   left: 85%;
   height: 30%;
+  cursor: pointer;
+  transition: 3s;
+}
+
+div.image_element img.element_5:hover {
+  transform: translate(-300%, 300%);
 }
 
 div.image_element img.element_6 {
@@ -256,12 +286,25 @@ div.image_element img.element_7 {
   top: 59%;
   left: 80%;
   height: 39%;
+  cursor: pointer;
+  transition: 10s;
+}
+
+div.image_element img.element_7:hover {
+  left: 500%;
 }
 
 div.image_element img.element_8 {
   top: 46%;
   left: 40%;
   height: 62%;
+}
+
+@media only screen and (min-width: 1101px) {
+  .picture {
+    height: 74%;
+    width: 57%;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
