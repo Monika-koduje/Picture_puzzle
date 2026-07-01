@@ -3,7 +3,7 @@
 ## Live Demo:
 [Try the app here](https://monika-koduje.github.io/Picture_puzzle/)
 
-## Technology Stuck:
+## Technology Stack:
     CSS3
     HTML5
     jQuery
