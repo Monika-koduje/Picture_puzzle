@@ -1,10 +1,12 @@
 # Picture_puzzle
 
-## Technologies
-Project is created with:
-* CSS3
-* HTML5
-* jQuery
+## Live Demo:
+[Try the app here]()
+
+## Technology Stuck:
+    CSS3
+    HTML5
+    jQuery
 
 Sources: 
 * https://pixabay.com/pl/
